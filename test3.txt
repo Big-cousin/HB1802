@@ -1,0 +1,13 @@
+本地仓库的内容提交到线上仓库;
+
+1.在github账号里建立一个远程端线上仓库
+
+账号中的 + 内部的
+  New repository  建立一个新的线上仓库;
+
+
+2.$ git remote add origin https://github.com/huaizhiY/HB1802.git
+
+把路径 重命名为 origin ;
+
+3.git push -u origin master
