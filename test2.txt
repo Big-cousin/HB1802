@@ -12,4 +12,13 @@
     
     HEAD is now at 版本号 第一次把工作区的内容放入本地仓库之中
 
+提交仓库到远程端之前，应该先去保证当前仓库的最新;
 
+$ git status
+
+只要结果里有红色的内容 
+
+        modified:   test.txt
+        modified:   test2.txt
+
+表示文件被更改;

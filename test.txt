@@ -13,6 +13,7 @@ github使用; 目标 让代码接受版本管理, 把代码上传到线上github
     git config --global user.email "931673916@qq.com"
 
     2.初始化github; 原则: 一个项目只需要初始化一个github就可以了; (仓库不花钱!!!!);
+    git init;
 
     初始化       空    git    仓库    在  路径上;
     Initialized empty Git repository in E:/phpnow/htdocs/1802/0812+1/github/.git/
@@ -35,4 +36,6 @@ github使用; 目标 让代码接受版本管理, 把代码上传到线上github
     [master (root-commit) 4342739] 第一次把工作区的内容放入本地仓库之中
         1 file changed, 27 insertions(+)
         create mode 100644 test.txt
+
+更新工作区
     
