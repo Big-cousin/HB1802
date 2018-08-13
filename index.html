@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 600px;
+            background: #ddd;
+        }
+        .container{
+            width: 1120px;
+            margin: 0 auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        li{
+            list-style-type: none;
+        }
+        .container{
+            overflow: hidden;
+        }
+        .container li{
+           box-sizing: border-box;
+           width: 224px;
+           height: 403px;
+           padding-left: 10px;
+           float: left;
+        }
+        .container ul{
+            margin-left: -10px;
+            overflow: hidden;
+        }
+        .container li img{
+            width: 100%;
+            height: 321px;
+        }
+        .container .detail{
+            overflow: hidden;
+            line-height: 30px;
+        }
+        .container .detail span:nth-of-type(1){
+            display: block;
+            float: left;
+            color: #f10;
+            font-weight: bold;
+        }
+        .container .detail span:nth-of-type(2){
+            display: block;
+            float: right;
+            color: #b6b6bb;
+        }
+        .container .title{
+            line-height: 20px;
+            font-size:14px;
+            padding-left: 30px;
+        }
+        .loading{
+            text-align: center;
+        }
+        .pagination{
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+<body>
+    
+    <div class="container">
+        <ul>
+            <!-- <li>
+                <div class="img-wrap">
+                        <img src="http://s11.mogucdn.com/p2/161123/30631883_53k80ehfkfcf85b068hlc4i3e73jf_640x960.jpg_999x999.v1c0.webp" alt="">
+                </div>
+                <div class="detail">
+                    <span>￥39.20</span>
+                    <span>☆21753</span>
+                </div>
+                <div class="title">
+                    <p>春秋新款黑灰色纯棉不透外...</p>
+                </div>
+            </li> -->
+        </ul>
+        <!-- <div class="loading">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533289580480&di=e70be4bc3a6f44565566edf205d904a4&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20150608%2Fmp18024810_1433737190650_3.gif" alt="">
+        </div> -->
+    </div>
+    <div class="pagination"></div>
+    <script src="jquery.js"></script>
+    <script src="jquery.pagination.js"></script>
+    <script src="jquery.myPagation.js"></script>
+    <script>
+        $(function(){
+            var pag = $.pag();
+            new pag().init();
+        })
+    </script>
+</body>
+</html>
