@@ -24,4 +24,15 @@ github使用; 目标 让代码接受版本管理, 把代码上传到线上github
     $ ls -a
 
     ./  ../  .git/ 有.git 的存在;
+
+
+把文件放入本地仓库;
+
+    1. git add 文件名; 放入 索引区;
+
+    2. git commit -m "注释" 
+
+    [master (root-commit) 4342739] 第一次把工作区的内容放入本地仓库之中
+        1 file changed, 27 insertions(+)
+        create mode 100644 test.txt
     
